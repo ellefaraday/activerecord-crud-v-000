@@ -24,8 +24,8 @@ end
 
 def can_be_created_in_a_block
   Movie.create do |m|
-    u.title = nil
-    u.release_date =nil
+    m.title = nil
+    m.release_date =nil
   end
 end
 
